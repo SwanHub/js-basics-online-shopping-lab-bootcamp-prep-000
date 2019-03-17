@@ -24,7 +24,6 @@ function randomGenerator() {
 ////
 ////Next function, viewCart()
 ////
-////
   
 function viewCart() {
   
@@ -54,7 +53,6 @@ function viewCart() {
 ////
 ////Next function, total()
 ////
-////
   
   
 function total() {
@@ -67,7 +65,6 @@ function total() {
 
 ////
 ////Next function, removeFromCart()
-////
 ////
 
 function removeFromCart(item) {
