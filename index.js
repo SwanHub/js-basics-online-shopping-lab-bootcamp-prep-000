@@ -80,6 +80,17 @@ function removeFromCart(item) {
 
 }
 
+////
+////Next function, placeOrder()
+////
+
+function placeOrder(cardNumber) {
+  // write your code here
+}
+
+
+
+
 
   function getCart() {
  return cart;
@@ -91,6 +102,4 @@ function setCart(c) {
   
 }
 
-function placeOrder(cardNumber) {
-  // write your code here
-}
+
