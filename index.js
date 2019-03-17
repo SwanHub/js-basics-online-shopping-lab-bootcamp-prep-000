@@ -2,20 +2,20 @@ var cart = [];
 
 function addToCart(item) {
   
-////Create a function that produces a random number between 1 - 100 for each new item added to the cart.
+//Create a function that produces a random number between 1 - 100 for each new item added to the cart.
 
 function randomGenerator() {
   return Math.floor(Math.random()*100);
 }
 
-////Create a new object for each new item added to the cart, consisting of itemName and itemPrice (using randomGenerator).
+//Create a new object for each new item added to the cart, consisting of itemName and itemPrice (using randomGenerator).
 
   var addedItem = {
       itemName: `${item}`,
       itemPrice: randomGenerator()
   };
   
-////Add the new item and return the successful message.
+//Add the new item and return the successful message.
 
   cart.push(addedItem);
   return `${item} has been added to your cart.`;
