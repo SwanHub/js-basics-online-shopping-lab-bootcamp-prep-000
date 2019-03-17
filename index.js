@@ -68,14 +68,18 @@ function total() {
 ////
 
 function removeFromCart(item) {
-  
-  //interesting strategy: function findIt() {
-    //while (cartola[i].itemName != "Pibb") {
-    //i++;
-    //}
-    //console.log(i);
-//}
+    var cartLength = cart.length;
+    for (var i = 0; i < cart.length; i++) {
+        if (cart[i].itemName === item) {
+            cart.splice(i, 1);
+        }
+    }
+    if (cart.length === cartLength) {
+        return "That item is not in your cart.";
+    } return cart;
+
 }
+
 
   function getCart() {
  return cart;
